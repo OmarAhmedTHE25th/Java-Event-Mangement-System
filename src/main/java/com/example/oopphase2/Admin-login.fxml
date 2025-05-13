@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Button?>
+<AnchorPane fx:id="Pane1" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopphase2.OrganiserLogin">
+    <children>
+        <Label layoutX="46.0" layoutY="58.0" text="Please Enter you Username and Password:">
+            <font>
+                <Font size="15.0"/>
+            </font>
+        </Label>
+        <Label layoutX="46.0" layoutY="96.0" text="Username:">
+            <font>
+                <Font size="13.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="usernameField" layoutX="175.0" layoutY="93.0"/>
+        <Label layoutX="46.0" layoutY="139.0" text="Password:">
+            <font>
+                <Font size="13.0"/>
+            </font>
+        </Label>
+        <PasswordField fx:id="passwordField" layoutX="175.0" layoutY="136.0"/>
+        <Button fx:id="loginA" layoutX="46.0" layoutY="173.0" mnemonicParsing="false" onAction="#AdminLog"
+                prefHeight="44.0" prefWidth="117.0" text="Login"/>
+        <TextField fx:id="outputMessage" layoutX="46.0" layoutY="219.0" prefHeight="177.0" prefWidth="542.0"/>
+        <Button fx:id="loginA1" layoutX="265.0" layoutY="173.0" mnemonicParsing="false" onAction="#AdmReturn"
+                prefHeight="44.0" prefWidth="117.0" text="Return"/>
+    </children>
+
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopphase2.AdminStartScreenController">
+
+
+    <VBox alignment="CENTER" layoutX="100" layoutY="100" spacing="20" styleClass="welcome-box"></VBox>
+    <Label layoutX="101.0" layoutY="23.0" styleClass="title-label" text="Welcome!"/>
+
+    <Label layoutX="14.0" layoutY="54.0" prefHeight="72.0" prefWidth="1035.0" styleClass="label"
+           text="Do you want to Sign up into a new account or Login onto an existing account?"/>
+    <Button layoutX="68.0" layoutY="147.0" mnemonicParsing="false" onAction="#AdminLOG" prefHeight="41.0"
+            prefWidth="120.0" text="Login"/>
+    <Button layoutX="275.0" layoutY="147.0" mnemonicParsing="false" onAction="#AdminSignUP" prefHeight="41.0"
+            prefWidth="120.0" text="Signup"/>
+    <Button layoutX="472.0" layoutY="147.0" mnemonicParsing="false" onAction="#Return" prefHeight="41.0"
+            prefWidth="120.0" text="Return"/>
+
+</AnchorPane>

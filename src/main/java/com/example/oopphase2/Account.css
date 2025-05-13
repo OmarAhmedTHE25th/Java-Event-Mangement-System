@@ -1,0 +1,45 @@
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #f0f4ff);
+    -fx-padding: 40;
+}
+
+.welcome-box {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-color: #d0d0d0;
+    -fx-padding: 30;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.08), 8, 0, 0, 4);
+    -fx-alignment: center;
+}
+
+.label {
+    -fx-font-size: 20px;
+    -fx-text-fill: #209fc9;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 20 0;
+}
+
+.title-label {
+    -fx-font-size: 26px;
+    -fx-text-fill: #0d47a1;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 20 0;
+}
+
+.button {
+    -fx-background-color: #e3f2fd;
+    -fx-text-fill: #0d47a1;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-padding: 10 25;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.05), 3, 0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: #bbdefb;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 6, 0, 0, 2);
+}

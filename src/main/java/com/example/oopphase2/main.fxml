@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopphase2.OrganiserLogin">
+    <children>
+        <VBox alignment="CENTER" spacing="20" styleClass="welcome-box" layoutX="100" layoutY="100">
+            <Label layoutX="247.0" layoutY="67.0" prefHeight="42.0" prefWidth="323.0" text="Choose your Role:"
+                   textAlignment="RIGHT"/>
+            <Button layoutX="250.0" layoutY="125.0" mnemonicParsing="false" onAction="#Alog" prefHeight="42.0"
+                    prefWidth="167.0" text="Admin"/>
+            <Button layoutX="250.0" layoutY="193.0" mnemonicParsing="false" onAction="#Olog" prefHeight="42.0"
+                    prefWidth="167.0" text="Organiser"/>
+            <Button layoutX="250.0" layoutY="275.0" mnemonicParsing="false" onAction="#ATTlog" prefHeight="42.0"
+                    prefWidth="167.0" text="Attendee"/>
+
+        </VBox>
+    </children>
+</AnchorPane>

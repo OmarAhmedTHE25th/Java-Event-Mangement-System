@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.RowConstraints?>
+<GridPane hgap="10" prefHeight="400.0" prefWidth="600.0" vgap="10" xmlns="http://javafx.com/javafx/23.0.1"
+          xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopphase2.AttendeeController">
+    <padding>
+        <Insets bottom="20" left="20" right="20" top="20"/>
+    </padding>
+
+    <Label stylesheets="@scratch.css" text="Wallet Balance: $" GridPane.rowIndex="5"/>
+    <Label fx:id="balanceLabel" stylesheets="@scratch.css" text="0.00" GridPane.columnIndex="1" GridPane.rowIndex="5"/>
+
+    <Label stylesheets="@scratch.css" text="Deposit Amount:" GridPane.rowIndex="6"/>
+    <TextField fx:id="depositField" stylesheets="@scratch.css" GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+    <Button onAction="#handleDeposit" prefHeight="40.0" prefWidth="101.0" stylesheets="@scratch.css" text="Deposit"
+            GridPane.columnIndex="2" GridPane.rowIndex="6"/>
+
+    <Label stylesheets="@scratch.css" text="Withdraw Amount:" GridPane.rowIndex="7"/>
+    <TextField fx:id="withdrawField" stylesheets="@scratch.css" GridPane.columnIndex="1" GridPane.rowIndex="7"/>
+    <Button onAction="#handleWithdraw" stylesheets="@scratch.css" text="Withdraw" GridPane.columnIndex="2"
+            GridPane.rowIndex="7"/>
+
+    <Label stylesheets="@scratch.css" text="Register Event:" GridPane.rowIndex="8"/>
+    <Button fx:id="searchEventButton" mnemonicParsing="false" onAction="#openEventSearch" prefHeight="25.0"
+            prefWidth="149.0" stylesheets="@scratch.css" text="Search Events" GridPane.columnIndex="1"
+            GridPane.rowIndex="8"/>
+    <Label alignment="CENTER" stylesheets="@scratch.css" text="Attendee Page" textAlignment="CENTER"
+           GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    <Button mnemonicParsing="false" onAction="#Return" prefHeight="40.0" prefWidth="121.0" stylesheets="@scratch.css"
+            text="Return" GridPane.rowIndex="11"/>
+    <columnConstraints>
+        <ColumnConstraints/>
+        <ColumnConstraints/>
+        <ColumnConstraints/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+        <RowConstraints/>
+    </rowConstraints>
+
+</GridPane>

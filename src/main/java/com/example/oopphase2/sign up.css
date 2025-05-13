@@ -1,0 +1,43 @@
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-background-color: linear-gradient(to bottom, #e8f5e9, #ffffff);
+    -fx-padding: 40;
+}
+
+.signup-container {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-color: #a5d6a7;
+    -fx-padding: 30;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0, 0, 4);
+}
+
+.label {
+    -fx-font-size: 20px;
+    -fx-text-fill: #2e7d32;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 20 0;
+}
+
+.text-field {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #c8e6c9;
+    -fx-padding: 8;
+    -fx-background-color: #f1f8e9;
+}
+
+
+.button {
+    -fx-background-color: #81c784;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-padding: 10 25;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #66bb6a;
+}

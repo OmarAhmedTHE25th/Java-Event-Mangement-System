@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TextArea?>
+<VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.oopphase2.OrganizerViewController">
+    <Label style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Organizer Panel"/>
+    <Button onAction="#showMyEvents" text="Show My Events"/>
+    <!--    <Button text="Update Event Details" onAction="#updateEventDetails" />-->
+    <Button onAction="#createEvent" text="Create Event"/>
+    <TextField fx:id="eventIdField" promptText="Enter Event ID"/>
+    <Button onAction="#editEvent" text="Edit Event"/>
+    <Button onAction="#deleteEvent" text="Delete Event"/>
+    <Button mnemonicParsing="false" onAction="#Return" prefHeight="27.0" prefWidth="81.0" text="Return"/>
+    <TextArea fx:id="outputArea" editable="false" prefHeight="200.0" prefWidth="300.0"/>
+</VBox>
