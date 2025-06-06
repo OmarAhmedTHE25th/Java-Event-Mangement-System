@@ -32,4 +32,4 @@ Project lead, integration, GUI designer, and backend developer.
 
 ##  License
 Free to use for educational purposes.
-                                                                                                                                                                             .
+                                                                                                                                                                             
